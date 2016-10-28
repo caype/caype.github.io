@@ -5,20 +5,21 @@
     <description>Caype is my blog where i share my experiments,learnings and thoughts with the world.
 </description>
     <link>
-    http://localhost:4000</link>
+    http://0.0.0.0:8080aseurl</link>
     
       
       <item>
-        <title>Welcome To Jekyll</title>
+        <title>Blog Motto</title>
         
-          <description>&lt;p&gt;You’ll find this post in your &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run &lt;code class=&quot;highlighter-rouge&quot;&gt;jekyll serve&lt;/code&gt;, which launches a web server and auto-regenerates your site when a file is updated.&lt;/p&gt;
+          <description>&lt;p&gt;Hi, I’m chaya, a passionate Web Developer and photographer.
+I love Teaching things i know and building websites.&lt;/p&gt;
 
 </description>
         
-        <pubDate>Wed, 10 Feb 2016 00:00:00 +0530</pubDate>
+        <pubDate>Thu, 27 Oct 2016 00:00:00 +0000</pubDate>
         <link>
-        http://localhost:4000/welcome-to-jekyll.html</link>
-        <guid isPermaLink="true">http://localhost:4000/welcome-to-jekyll.html</guid>
+        http://0.0.0.0:8080aseurl/Blog-Motto.html</link>
+        <guid isPermaLink="true">http://0.0.0.0:8080aseurl/Blog-Motto.html</guid>
       </item>
       
     
