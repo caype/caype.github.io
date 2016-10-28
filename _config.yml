@@ -1,12 +1,12 @@
 # User Settings | Edit there as per required
 
-title: caype-My web Journal
+title: CAYPE-My web Journal
 url: ""
 baseurl: ""
 
 # This will show up at the top of index page
 site_heading: >
-    chaya <span class="faded">'s blog</span>
+    <span class="site-name">chaya</span> <span class="faded">'s blog</span>
 
 email: chayakrishnaprasad@gmail.com
 author: Chaya

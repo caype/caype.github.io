@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>caype-My web Journal - Articles</title>
+    <title>CAYPE-My web Journal - Articles</title>
     <description>Caype is my blog where i share my experiments,learnings and thoughts with the world.
 </description>
     <link>
-    http://0.0.0.0:8080aseurl</link>
+    http://0.0.0.0:8080</link>
     
       
       <item>
@@ -18,8 +18,8 @@ I love Teaching things i know and building websites.&lt;/p&gt;
         
         <pubDate>Thu, 27 Oct 2016 00:00:00 +0000</pubDate>
         <link>
-        http://0.0.0.0:8080aseurl/Blog-Motto.html</link>
-        <guid isPermaLink="true">http://0.0.0.0:8080aseurl/Blog-Motto.html</guid>
+        http://0.0.0.0:8080/Blog-Motto.html</link>
+        <guid isPermaLink="true">http://0.0.0.0:8080/Blog-Motto.html</guid>
       </item>
       
     
