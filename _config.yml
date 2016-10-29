@@ -47,7 +47,7 @@ favicon: false
 profile_picture: images/author.png
 paginate: 10
 paginate_path: "/page/:num"
-# tracking_id: UA-69243698-7 # GA Tracking ID
+tracking_id: UA-86498320-1 # GA Tracking ID
 
 # Social Stuff | open graph and twitter cards
 #og_image: "images/accent.png" # This will show in facebook thumbnails
