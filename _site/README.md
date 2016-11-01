@@ -13,3 +13,8 @@ Through this blog, i wish to contribute to the community in all ways possible in
 > ― Mark Van Doren.
 
 Lets Get in Touch! via [mail](mailto:chayakrishnaprasad@gmail.com)
+
+## TODO :
+
+- Write a tutorial on Introduction to Vue using the TODOList app.
+- Learn More Vue.
