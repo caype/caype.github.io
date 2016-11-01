@@ -5,7 +5,7 @@
     <description>Caype is my blog where i share my experiments,learnings and thoughts with the world.
 </description>
     <link>
-    http://0.0.0.0:8080</link>
+    http://localhost:4000</link>
     
       
       <item>
@@ -16,10 +16,10 @@ I love Teaching things i know and building websites.&lt;/p&gt;
 
 </description>
         
-        <pubDate>Thu, 27 Oct 2016 00:00:00 +0000</pubDate>
+        <pubDate>Thu, 27 Oct 2016 00:00:00 +0530</pubDate>
         <link>
-        http://0.0.0.0:8080/Blog-Motto.html</link>
-        <guid isPermaLink="true">http://0.0.0.0:8080/Blog-Motto.html</guid>
+        http://localhost:4000/Blog-Motto.html</link>
+        <guid isPermaLink="true">http://localhost:4000/Blog-Motto.html</guid>
       </item>
       
     
