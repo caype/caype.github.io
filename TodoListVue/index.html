@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>TodoApp using Vuejs</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/css/materialize.min.css">
+    <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <style media="screen">
+        .todo-card {
+            min-height: 50px;
+            padding: 10px !important;
+        }
+
+        .strikeTodo {
+            text-decoration: line-through;
+        }
+
+        .todo-list-item {
+            color: black;
+        }
+
+        #todoList .align-card-title {
+            margin-left: -25px !important;
+            margin-top: -13px !important;
+        }
+
+        #todoList .TodoAddButton {
+            margin-top: -2px;
+            margin-left: 50px;
+        }
+    </style>
+
+</head>
+
+<body>
+<span><a style="color:black" href="https://caype.github.io"><--back to Blog.</a></span>
+    <div class="container">
+        <div class="col m12" style="margin-top:150px;">
+            <div id="todoList">
+                <div class="row">
+                    <div class="col s12 m12">
+                        <div class="card orange lighten-1">
+                            <div class="card-content white-text">
+                                <h4 class="center-align">Todo List</h4>
+                                <div class="row">
+                                    <div class="col m2">
+                                        <span>Enter todo task</span>
+                                    </div>
+                                    <div class="col m5 align-card-title">
+                                        <input type="text" v-model='enteredText' v-on:keyup.enter="addNewTodo()">
+                                    </div>
+                                    <div class="col m2">
+                                        <span>Enter type of task</span>
+                                    </div>
+                                    <div class="col m2 align-card-title">
+                                        <input type="text" v-model='enteredType' v-on:keyup.enter="addNewTodo()">
+                                    </div>
+                                    <div class="col m1 TodoAddButton">
+                                        <a class="btn-floating btn-large waves-effect waves-light red" v-on:click="addNewTodo()">
+                                            <i class="material-icons">add</i></a>
+                                    </div>
+                                </div>
+                                <div class="row" v-if="selectedFilter!=''">
+                                    <div class="col m11 left">
+                                        <div class="chip">
+                                            {{selectedFilter}}
+                                        </div>
+                                    </div>
+                                    <div class="col m1 right">
+                                        <a class="btn-floating btn-large waves-effect waves-light" v-on:click="resetFilters()"><i class="material-icons">clear_all</i></a>
+                                    </div>
+                                </div>
+                                <ul>
+                                    <li v-for="(todoObj,index) in todoArray">
+                                        <todo :todo-Data="todoObj" :index="index"></todo>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <template id="todoCard">
+        <div class="card-panel todo-card white">
+            <span style="display:none">{{todoData.id}}</span>
+            <div class="col m9">
+                <input type="checkbox" v-bind:disabled="isDone()" v-bind:checked="isDone()" :id="index" v-on:click="markDone()" />
+                <label :for="index"><span v-bind:class="{strikeTodo:isDone()}" class="todo-list-item">{{todoData.text}}
+                  </span></label>
+            </div>
+            <div class="col m2">
+                <a v-on:click="getTypeTodos()" class="chip">{{todoData.type}}</a>
+            </div>
+            <div class="col m1">
+                <a href="#" v-on:click="removeTodo()"><i class="material-icons">clear</i></a>
+            </div>
+        </div>
+    </template>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/js/materialize.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.0.3/vue.min.js"></script>
+    <script type="text/javascript" src="app.js"></script>
+
+</body>
+
+</html>
