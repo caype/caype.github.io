@@ -13,5 +13,3 @@ Through this blog, i wish to contribute to the community in all ways possible in
 > ― Mark Van Doren.
 
 Lets Get in Touch! via [mail](mailto:chayakrishnaprasad@gmail.com)
-
-#### Blog Roadmap coming soon..
